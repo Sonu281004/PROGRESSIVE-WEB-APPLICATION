@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>My Awesome PWA</title>
+    <link rel="manifest" href="manifest.json" />
+    <meta name="theme-color" content="#2196F3" />
+    <link rel="apple-touch-icon" href="images/icon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>🛍️ My Awesome PWA</h1>
+        <p>Fast. Installable. Offline-Ready.</p>
+    </header>
+
+    <main>
+        <section class="intro">
+            <h2>Welcome to Your First Progressive Web App!</h2>
+            <p>This app works offline and supports push notifications to keep you updated in real-time.</p>
+        </section>
+
+        <section class="features">
+            <h3>🚀 Features</h3>
+            <ul>
+                <li>✅ Works Offline</li>
+                <li>✅ Add to Home Screen</li>
+                <li>✅ Push Notifications</li>
+                <li>✅ Fast & Responsive</li>
+            </ul>
+        </section>
+
+        <section class="actions">
+            <button id="installApp" style="display: none;">📲 Install App</button>
+            <button id="enableNotifications">🔔 Enable Notifications</button>
+            <button id="sendTestNotification" style="display: none;">Send Test Notification</button>
+        </section>
+
+        <div id="offlineMessage" class="hidden">
+            <h2>⚠️ You're Offline</h2>
+            <p>You're currently offline. Cached content is still available.</p>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 My Awesome PWA | Made with ❤️</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
